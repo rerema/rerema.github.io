@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>慶菜婚禮</title>
+  <link rel="shortcut icon" href="./img/favicon.ico">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="./css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="./css/parallax.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">
+        <div>
+          <img style="vertical-align:middle" src="./img/logo.png" width="30px" />
+          <span style="">慶菜</span>
+        </div>
+      </a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-darken-2"></h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="./img/background1.jpg" alt="rema1"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <h3 class="center">為之 <img src="./img/rere.png" style="height: 35px"> 炆璇 婚宴</h3>
+      <h5 class="center">2019.10.06 (日)</h5>
+      <h5 class="center">中午 12:00</h5>
+      <br><br>
+      <div class="row">
+        <form id="wedding_form" class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="name" type="text" class="validate" required="">
+              <label for="name">您的大名</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">smartphone</i>
+              <input id="phone" type="tel" class="validate" required="">
+              <label for="phone">聯絡電話</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <h5>
+      			    <i class="material-icons">schedule</i>
+                10/06當天是否出席?
+              </h5>
+              <p>
+                <input name="attendance" type="radio" id="attendance_1" value="1" required="" />
+                <label for="attendance_1">人到禮到</label>
+              </p>
+              <p>
+                <input name="attendance" type="radio" id="attendance_2" value="0" />
+                <label for="attendance_2">人不到禮到</label>
+              </p>
+              <p>
+                <input name="attendance" type="radio" id="attendance_3" value="-1" />
+                <label for="attendance_3">無法參加</label>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">home</i>
+              <input id="address" type="text" required="">
+              <label for="address">喜帖寄送地址</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <select id="persons">
+				      <option value="1">1位</option>
+				      <option value="2">2位</option>
+				      <option value="3">3位</option>
+				      <option value="4">4位</option>
+				      <option value="5">5位</option>
+				    </select>
+              <label>
+                <i class="material-icons">people</i>
+                預計出席人數
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <select id="children">
+				      <option value="0">0張</option>
+				      <option value="1">1張</option>
+				      <option value="2">2張</option>
+				    </select>
+              <label>
+                <i class="material-icons">child_care</i>
+                需要兒童椅數量
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <h5>
+      			    <i class="material-icons">local_dining</i>
+                請問有素食需求嗎？
+              </h5>
+              <p>
+                <input name="vegetarian" type="radio" id="vegetarian_1" value="false" required="" checked />
+                <label for="vegetarian_1">沒有</label>
+              </p>
+              <p>
+                <input name="vegetarian" type="radio" id="vegetarian_2" value="true" />
+                <label for="vegetarian_2">有</label>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">
+      		      <i class="material-icons">message</i>
+                有想對我們說什麼的嗎？
+              </label>
+            </div>
+          </div>
+          <button class="btn waves-effect waves-light btn-large" type="submit" name="action">送出&nbsp;&nbsp;&nbsp;
+          <img src="./img/rere.png" atl="rere" style="width:30px;margin:-10px">
+			  </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="./img/background3.jpg" alt="rema3">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <img src="https://www.felicite-wed.com/assets/img/cdf_logo.png" style="max-width:200px"/>
+          <p>
+            1F 天翼廳
+            <a href="http://www.skyline-hotels.com.tw/tw/modules/pages/space" target="_blank">
+	      <i class="material-icons prefix">info</i>
+            </a>
+          </p>
+          <p>地址： 臺北市松山區敦化北路232號</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4965.828126226683!2d121.5474198889804!3d25.059116564018357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abef8328758b%3A0xca12be41f57f05cd!2zMTA15Y-w5YyX5biC5p2-5bGx5Y2A5pWm5YyW5YyX6LevMjMy6Jmf!5e0!3m2!1szh-TW!2stw!4v1558971254417!5m2!1szh-TW!2stw"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row center">
+          <div class="col s12">
+            <img src="https://www.felicite-wed.com/images/infos/7132441.jpg" width="50%" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container center" style="padding-bottom: 15px;">
+      <div>
+        <img style="vertical-align:middle;filter:invert(100%);" src="https://cdn.rawgit.com/amigcamel/wedding/d6f170ac/img/logo.png" width="20px" />
+        Made by <a class="brown-text text-lighten-3" href="https://aji.tw">阿吉</a>, 2019
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Modal Structure -->
+  <div id="thank_modal" class="modal">
+    <div class="modal-content">
+      <div class="center">
+        <img style="vertical-align:middle" src="https://cdn.rawgit.com/amigcamel/wedding/d6f170ac/img/logo.png" width="25px" />
+        <span class="center" style="position:relative;bottom:-5px;font-size: 25px;"> 資料已送出，謝謝您的填寫！</span>
+      </div>
+
+    </div>
+    <div class="modal-footer">
+      <button class="modal-action modal-close btn waves-effect waves-light" type="submit" name="action">關閉</button>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="./js/materialize.js"></script>
+  <script src="./js/init.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+  <script src="./js/form.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDktI0VxCRNNV0bivezRtZn34LauxlGgNw",
+      authDomain: "remama-wedding.firebaseapp.com",
+      databaseURL: "https://remama-wedding.firebaseio.com",
+      projectId: "remama-wedding",
+      storageBucket: "remama-wedding.appspot.com",
+      messagingSenderId: "282698488997",
+      appId: "1:282698488997:web:8efa68f3f56e5035"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</body>
+
+</html>

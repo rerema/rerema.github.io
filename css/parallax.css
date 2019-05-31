@@ -1,0 +1,36 @@
+.parallax-container {
+  height: 500px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax img {
+  
+  max-height: 150%;
+    margin-left: 0px;
+  }
+  .parallax-container {
+    height: 50px;
+  }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .parallax img {
+    max-height: 100%;
+    margin: 0;
+  }
+  .parallax-container {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .parallax img {
+    max-height: 120%;
+    margin: 0;
+  }
+  .parallax-container {
+    height: 800px;
+  }
+}
+
+
